@@ -49,7 +49,7 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-amqp</artifactId>
-      <scope>provided</scope>
+      <!--<scope>provided</scope>-->
     </dependency>
 
     <!-- RocketMQ -->
@@ -63,7 +63,7 @@
     <dependency>
       <groupId>com.aliyun.openservices</groupId>
       <artifactId>ons-client</artifactId>
-      <scope>provided</scope>
+    <!--  <scope>provided</scope>-->
     </dependency>
 
     <!-- ↑↑↑↑↑↑ MQ依赖包 ↑↑↑↑↑↑ -->
