@@ -80,10 +80,10 @@ spring:
 #    dynamic: true
 #    virtual-host: jeepay
 
-## rocketmq配置 ( 注意：rocketmq配置项请放置到根目录， 不是spring的二级配置！  )
-#rocketmq:
-#  name-server: 172.20.0.11:9876
-#  producer:
+# rocketmq配置 ( 注意：rocketmq配置项请放置到根目录， 不是spring的二级配置！  )
+rocketmq:
+  name-server: 127.0.0.1:9876
+  producer:
 
 ## 阿里云rocketmq配置 ( 注意：aliyun-rocketmq配置项请放置到根目录， 不是spring的二级配置！需要阿里云开通rocketMQ产品，创建Group和Topic  )
 #aliyun-rocketmq:
@@ -133,5 +133,5 @@ isys:
       access-key-secret: SECRET_SECRET_SECRET  #AccessKeySecret
 
   mq:
-    vender: activeMQ  #  切换MQ厂商， 支持：【 activeMQ  rabbitMQ  rocketMQ  aliYunRocketMQ 】， 需正确配置 【对应的yml参数】 和 【jeepay-components-mq项目下pom.xml中的依赖包】。
+    vender: rocketMQ  #  切换MQ厂商， 支持：【 activeMQ  rabbitMQ  rocketMQ  aliYunRocketMQ 】， 需正确配置 【对应的yml参数】 和 【jeepay-components-mq项目下pom.xml中的依赖包】。
 
