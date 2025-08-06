@@ -49,7 +49,7 @@ spring:
     host: 127.0.0.1
     port: 6379
     timeout: 1000
-    password:
+    password: 111111
 
 # #activeMQ配置 ( 注意： activeMQ配置项需在spring的下级 )
   activemq:
