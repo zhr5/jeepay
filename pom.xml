@@ -29,9 +29,12 @@
   	<module>jeepay-manager</module>	<!-- 运营平台管理端 -->
   	<module>jeepay-merchant</module>	<!-- 商户平台管理端 -->
     <module>jeepay-payment</module>	<!-- 支付统一网关 -->
+    <module>jeepay-trade</module>   <!-- 交易系统模块 -->
 
-    <module>jeepay-components</module> <!-- 组件包 -->
+    <module>jeepay-components</module>
+      <module>jeepay-trade</module> <!-- 组件包 -->
   </modules>
+
 
   <!-- 配置属性声明, 支持自定义参数 -->
   <properties>
