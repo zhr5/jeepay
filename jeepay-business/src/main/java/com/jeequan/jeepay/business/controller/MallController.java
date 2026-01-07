@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/mall")
 public class MallController {
 
-    @Autowired
+   /* @Autowired
     private MallBusinessService mallService;
 
     @PostMapping("/create-order")
@@ -20,6 +20,6 @@ public class MallController {
     public ApiRes<PaymentResponse> pay(@RequestParam String orderId) {
         PaymentResponse response = mallService.payMallOrder(orderId);
         return ApiRes.ok(response);
-    }
+    }*/
 }
 
